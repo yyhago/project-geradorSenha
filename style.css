@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    background-image: url(img/textura-da-parede-do-grunge.jpg);
+    color: #fff;
+}
+
+
+.container{
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 90%;
+    max-width: 700px;
+}
+
+.container h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.container strong{
+    border-bottom: 3px solid #0bd0ac;
+}
+
+.container img{
+    width: 40px;
+    cursor: pointer;
+}
+
+
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 25px 20px;
+   border-radius: 10px;
+}
+
+
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+
+.container button img{
+    width: 28px;
+    margin-right:10px;
+}
+
+.container button{
+   border: 0;
+   outline: 0;
+   background: #0bd0ac; 
+   color: #fff;
+   font-size: 33px;
+   font-weight: 300;
+   display: flex;
+   align-items: center;
+   border-radius: 5px;
+   padding: 12px 10px;
+   cursor: pointer;
+}
